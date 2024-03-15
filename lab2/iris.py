@@ -99,6 +99,8 @@ if __name__ == '__main__':
     plt.rc('ytick', labelsize=16)
 
     D, L = load('iris.csv')
+    print(D.shape)
+    print(L.shape)
     # plot_hist(D, L)
     # plot_scatter(D, L)
 
